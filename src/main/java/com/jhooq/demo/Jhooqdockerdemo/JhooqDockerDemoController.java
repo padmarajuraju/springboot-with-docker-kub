@@ -8,6 +8,6 @@ public class JhooqDockerDemoController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Launching springboot application on k8s cluster using jenkins pipeline script";
+        return "Docker Demo - Hello Jhooq";
     }
 }
